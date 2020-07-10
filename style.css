@@ -1,0 +1,282 @@
+body {
+    font-size: 16px/28px 'cambria', sans-serif;
+    background-color: #F4F6FA;
+    color: black;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.header a:hover {
+    color: #F7A44F;
+}
+
+.topbar {
+    text-align: right;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar ul li {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #144198;
+    /* margin-right: 25px; */
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+
+.breadcrumbs {
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.breadcrumbs hr {
+    border-top: 1px solid #144198;
+    margin-top: -6px;
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+    background-color: #F4F6F9;
+    padding: 0 10px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    margin: 0 2px;
+    color: grey;
+}
+
+.breadcrumbs a:hover {
+    color: #F7A44F;
+}
+
+.slider {
+    background-color: #FCEDE5;
+    height: 450px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.slider h1 {
+    padding-top: 100px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.slider p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 400px;
+    margin: auto;
+}
+
+.slider button {
+    background-color: #144198;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.slider button a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.slider button:hover {
+    opacity: 0.8;
+}
+
+
+.title-home {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.title-home h1 {
+    color: #F9A545;
+    font-size: 24px;
+}
+
+.title-home hr {
+    width: 250px;
+    border-top: 1px solid #F9A545;
+}
+
+.gallery-produk-unggulan .banner,
+.testimonial-items .person {
+    width: 259px;
+    height: 220px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.gallery-produk-unggulan,
+.testimonial-items {
+    text-align: center;
+}
+
+.gallery-produk-unggulan li,
+.testimonial-items li {
+
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+.gallery-produk-unggulan img,
+.testimonial-items img {
+    margin-bottom: 15px;
+}
+
+.gallery-produk-unggulan a,
+.testimonial-items a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding-top: 10px;
+}
+
+.gallery-produk-unggulan a:hover,
+.testimonial-items a:hover {
+    opacity: 0.5;
+}
+
+.testimonial {
+    background-color: white;
+}
+
+.person {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.person h6 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.person p {
+    font-weight: lighter;
+    color: grey;
+    font-size: 12px;
+}
+
+.footer #logo-small {
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: #F9A545;
+}
+
+.footer p {
+    padding-bottom: 5px;
+}
+
+#icon-ig {
+    width: 25px;
+}
+
+.footer span {
+    color: grey;
+}
+
+.contact-form {
+    width: 600px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 40px auto;
+}
+
+.contact-form h1,
+.contact-form h2,
+.contact-form p {
+    padding: 0 40px;
+}
+
+.contact-form h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.contact-form h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.contact-form form {
+    padding: 40px;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #144198;
+    color: white;
+    padding: 10px 10px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+}
