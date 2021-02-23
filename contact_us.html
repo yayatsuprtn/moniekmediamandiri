@@ -1,113 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Contact Us</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-
 </head>
 
 <body>
-    <div class="container">
 
-        <div class="header">
-            <div class="topbar">
-                <ul>
-                    <li>
-                        <a href="">My Account</a>
-                        <a href="">Cart</a>
+    <!-- Topbar -->
+    <div class="topbar fixed-top ">
+        <div class="container">
+            <a href="cart.html" class="nav-link float-right text-dark"><i class="fas fa-shopping-cart"></i>
+                My Cart
+                (<span>0</span>)</a>
+            <a href="login.html" class="nav-link float-right text-dark"><i class="fas fa-user"></i> My
+                Account</a>
+        </div>
+    </div>
+
+    <div class="logo-topbar fixed-top">
+        <div class="container">
+            <img src="img/logo-moniek.png" alt="">
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="product.html">PRODUCT</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact_us.html">CONTACT US <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
-
-            <img id="logo" src="img/logo-moniek.png" alt="">
-            <div class="navbar">
-                <ul>
-                    <li>
-                        <a href="home.html">HOME</a>
-                        <a href="">PRODUCT</a>
-                        <a href="contact_us.html">CONTACT US</a>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </div>
-    <div class="breadcrumbs">
-        <ul>
-            <li>
-                <a href="home.html">HOME</a>
-                /
-                CONTACT US
-            </li>
-        </ul>
-        <hr>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-nav fixed-top">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent justify-content-center">
+                <li class="breadcrumb-item p-1 "><a class="ml-2" href="index.html">Home</a></li>
+                <li class="breadcrumb-item active  p-1" aria-current="page"><span class="mr-2">Contact Us</span></li>
+            </ol>
+        </nav>
+        <hr class="border-nav">
     </div>
 
     <div class="container">
-        <div class="contact-form">
-            <h1>Contact Us</h1>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-7">
+                <div class="card card-contact-us px-4 mb-5">
+                    <div class="card-header bg-transparent">
+                        <h2 class="text-center mt-4">CONTACT US</h2>
+                        <br>
+                        <h5 class="text-left">Customer Service Operational Hours</h5>
+                        <p class="text-left">Monday - Saturday</p>
+                        <p class="text-left">From 8.00 AM - 8.00 PM</p>
 
-            <h2>Customer Service Operational Hours</h2>
-            <p>Monday - Saturday</p>
-            <p>From 8.00 AM - 8.00 PM</p>
+                        <h5 class="text-left mt-4">Phone</h5>
+                        <p class="text-left">022 - 2536637</p>
 
-            <h2>Phone</h2>
-            <p>022 - 2536637</p>
+                        <h5 class="text-left mt-4">Email</h5>
+                        <p class="text-left">moniekmediamandiri62@gmail.com</p>
 
-            <h2>Email</h2>
-            <p>moniekmediamandiri62@gmail.com</p>
-
-            <h2>Social Media</h2>
-            <p>moniekmediamandiri62@gmail.com</p>
-
-            <h2>Send Us a Message</h2>
-            <form action="">
-                <label for="">Name</label>
-                <input type="text">
-                <label for="">Phone Number</label>
-                <input type="text">
-                <label for="">Email</label>
-                <input type="text">
-                <label for="">Subject</label>
-                <input type="text">
-                <label for="">Add Your Question</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-
-                <button>Send</button>
-            </form>
-
-        </div>
-
-        <div class="footer">
-            <table>
-                <tr>
-                    <td>
-                        <img id="logo-small" src="img/logo-moniek.png" alt="">
-                        <p>Jl. Dipatiukur No.62A</p>
-                        <p>Bandung 40132</p>
-                        <p>Telepon: 022-2536637</p>
-                    </td>
-                    <td>
-                        <p><a href="">Syarat dan Ketentuan</a></p>
-                        <p><a href="">Cara Pemesanan</a></p>
-                        <p><a href="">Cara Pembayaran</a></p>
-                        <p><a href="">Konfirmasi Pembayaran</a></p>
-                        <p><a href="">Cek Status Order</a></p>
-                    </td>
-                    <td>
-                        <img id="icon-ig" src="img/Icon-instagram.png" alt="">
-                        <p><a href="">@moniekmediamandiri</a></p>
-                    </td>
-                </tr>
-            </table>
-            <p><span> All Rights Reserved by</span> <a href="home.html"> Moniek Media Mandiri</a> <span> &copy;
-                    2020</span></p>
+                        <h5 class="text-left mt-4">Social Media</h5>
+                        <p class="text-left">@moniekmediamandiri</p>
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <h5 class="text-left">Send Us a Message</h5>
+                            <div class="form-group">Name
+                                <input type="text" name="name" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">Phone Number
+                                <input type="text" name="phone-number" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">Email
+                                <input type="text" name="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">Subject
+                                <input type="text" name="subject" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="form-group add">Add Your Question
+                                <input type="text" name="add-your-question" class="form-control"
+                                    placeholder="Add Your Question">
+                            </div>
+                            <div class="form-group mt-5">
+                                <input type="submit" name="" value="Send" class="btn btn-primary btn-block">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <img src="img/logo-moniek-kecil.png">
+                    <p class="mt-4">Jl. Dipatiukur No.62A</p>
+                    <p>Bandung 40132</p>
+                    <p>Telepon: 022-2536637</p>
+                </div>
+                <div class="col-4 text-right">
+
+                    <p><a href="">Syarat dan Ketentuan</a></p>
+                    <p><a href="">Cara Pemesanan</a></p>
+                    <p><a href="">Cara Pembayaran</a></p>
+                    <p><a href="">Konfirmasi Pembayaran</a></p>
+                    <p><a href="">Cek Status Order</a></p>
+                </div>
+                <div class="col-4 text-right">
+                    <p class="social"><span><a href=""><i class="fab fa-instagram"></i> @moniekmediamandiri</a></span>
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-between">
+                <div class="col">
+                    <p>All Rights Reserved by <a href="index.html"><b>Moniek Media Mandiri</b> </a> &copy; 2019.</p>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
 
 </body>
 
